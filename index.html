@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>BAPRI</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <!-- MENU ENCABEZADO -->
+    <div class="contenedor-header">
+        <header>
+            <div class="logo">
+                <img src="img/logo.png" alt="">
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#inicio" onclick="seleccionar()">Inicio</a></li>
+                    <li><a href="#conocenos" onclick="seleccionar()">Conocenos</a></li>
+                    <li><a href="#catalogo" onclick="seleccionar()">Catálogo</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div>
+
+    <!-- SECCION INICIO -->
+    <section id="inicio" class="inicio">
+          <video src="img/video.mp4" muted loop autoplay ></video>
+          <div class="overlay"></div>
+        <div class="contenido-banner">
+            
+            <h2>¿Quieres seguridad al rentar, comprar o vender?, ¡en <span>BAPRI</span> lo vas a tener!</h2>
+            <div class="redes">
+                <a href="https://www.facebook.com/profile.php?id=100086518237887" target="blank"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="https://www.instagram.com/inmobiliariabapri/" target="blank"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.youtube.com/channel/UCU8CkKXFBw3t42TXSUoC0vg" target="blank"><i class="fa-brands fa-youtube"></i></a>
+                <a href="https://www.tiktok.com/@inmobiliariabapri?lang=es" target="blank"><i class="fa-brands fa-tiktok"></i></a>
+                <a href="https://wa.me/2721033830" target="blank"><i class="fa-brands fa-whatsapp"></i></a>
+            
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION CONOCENOS -->
+    <section id="conocenos" class="conocenos">
+        <div class="card">
+            <div class="face front">
+                <img src="img/mision.jpg" alt="">
+                <h3>Misión</h3>
+            </div>
+            <div class="face back">
+                <h3>Misión</h3>
+                <p>Proporcionar un asesoramiento integral, a personas y empresas, que permita solucionar todas sus necesidades relacionadas con el mercado inmobiliario. Aportándoles una mayor rentabilidad basada en la responsabilidad y la trasparencia.</p>
+                <div class="link">
+                </div>
+            </div>
+        </div>
+        
+        <div class="card">
+            <div class="face front">
+                <img src="img/vision.jpg" alt="">
+                <h3>Visión</h3>
+            </div>
+            <div class="face back">
+                <h3>Visión</h3>
+                <p>Convertirnos en la empresa de referencia del sector inmobiliario en la zona, con objeto de que las personas que intervienen en este mercado piensen en nosotros como primera opción en el momento de vender, comprar o alquilar una vivienda.</p>
+                <div class="link">
+                </div>
+            </div>
+        </div>
+        
+    
+        <div class="card">
+            <div class="face front">
+                <img src="img/valores.jpg" alt="">
+                <h3>Valores</h3>
+            </div>
+            <div class="face back">
+                <h3>Valores</h3>
+                <p>Transparencia</p>
+                <p>Ética – Honestidad</p>
+                <p>Profesionalidad – Eficiencia</p>
+                <p>Responsabilidad Social</p>
+                <p>Cercanía</p>
+                <div class="link">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION CATALOGO -->
+    <section id="catalogo" class="catalogo">
+        <div class="wrap">
+            <h1>CATÁLOGO</h1>
+            <div class="store-wrapper">
+                <div class="category_list">
+                    <a href="#catalogo" class="category_item" category="all">Todo</a>
+                    <a href="#catalogo" class="category_item" category="casas">Casas</a>
+                    <a href="#catalogo" class="category_item" category="departamentos">Departamentos</a>
+                    <a href="#catalogo" class="category_item" category="locales">Locales</a>
+                    <a href="#catalogo" class="category_item" category="terrenos">Terrenos</a>
+              
+                </div>
+
+                
+                <!-- CASAS -->
+                <section class="products-list">
+                    <div class="product-item" category="casas">
+                        <a title="Casa nueva en Fortín" href="img/presentaciones/casa1.pdf" target="blank"><img src="img/predios/casa1.jpg" alt=""/></a>
+                        <a href="#">Casa nueva en Fortín</a>
+                    </div>
+
+                    <div class="product-item" category="casas">
+                        <a title="Casa nueva en Fortín" href="img/presentaciones/casa2.pdf" target="blank"><img src="img/predios/casa2.jpg" alt=""/></a>
+                        <a href="#">Casa nueva en Residencial "La llave"</a>
+                    </div>
+
+                    <div class="product-item" category="casas">
+                        <a title="Casa nueva en Fortín" href="img/presentaciones/casa3.pdf" target="blank"><img src="img/predios/casa3.jpg" alt=""/></a>
+                        <a href="#">Casa seminueva en Santa Cecilia, Córdoba.</a>
+                    </div>
+
+                    <div class="product-item" category="casas">
+                        <a title="Casa nueva en Fortín" href="img/presentaciones/casa4.pdf" target="blank"><img src="img/predios/casa4.jpg" alt=""/></a>
+                        <a href="#">Casa seminueva en Monte Salas</a>
+                    </div>
+
+                    <div class="product-item" category="casas">
+                        <a title="Casa seminueva en Chapingo, Boca del Río" href="img/presentaciones/casa5.pdf" target="blank"><img src="img/predios/casa5.jpg" alt=""/></a>
+                        <a href="#">Casa seminueva en Chapingo, Boca del Río</a>
+                    </div>
+
+                    <div class="product-item" category="casas">
+                        <a title="Casa nueva en Ixtaczoquitlán" href="img/presentaciones/casa6.pdf" target="blank"><img src="img/predios/casa6.jpg" alt=""/></a>
+                        <a href="#">Casa nueva en Ixtaczoquitlán</a>
+                    </div>
+
+                    <div class="product-item" category="casas">
+                        <a title="Casa nueva Mont Fuji, Boca del Río" href="img/presentaciones/casa7.pdf" target="blank"><img src="img/predios/casa7.jpg" alt=""/></a>
+                        <a href="#">Casa nueva Mont Fuji, Boca del Río</a>
+                    </div>
+
+                    <div class="product-item" category="casas">
+                        <a title="Casa nueva Mont Denali, Boca del Río" href="img/presentaciones/casa8.pdf" target="blank"><img src="img/predios/casa8.jpg" alt=""/></a>
+                        <a href="#">Casa nueva Mont Denali, Boca del Río</a>
+                    </div>
+
+                    <div class="product-item" category="casas">
+                        <a title="Casa nueva Mont Blanc, Boca del Río" href="img/presentaciones/casa9.pdf" target="blank"><img src="img/predios/casa9.jpg" alt=""/></a>
+                        <a href="#">Casa nueva Mont Fuji, Boca del Río</a>
+                    </div>
+
+                    <div class="product-item" category="casas">
+                        <a title="Casa con amplio terreno en Atzacan" href="img/presentaciones/casa10.pdf" target="blank"><img src="img/predios/casa10.jpg" alt=""/></a>
+                        <a href="#">Casa con amplio terreno en Atzacan</a>
+                    </div>
+
+                    <div class="product-item" category="casas">
+                        <a title="Casa Mallorca, La Querencia, Veracruz" href="img/presentaciones/casa11.pdf" target="blank"><img src="img/predios/casa11.jpg" alt=""/></a>
+                        <a href="#">Casa Mallorca, La Querencia, Veracruz</a>
+                    </div>
+
+                    <div class="product-item" category="casas">
+                        <a title="Casa Ibiza, La Querencia, Veracruz" href="img/presentaciones/casa12.pdf" target="blank"><img src="img/predios/casa12.jpg" alt=""/></a>
+                        <a href="#">Casa Ibiza, La Querencia, Veracruz</a>
+                    </div>
+
+                    <div class="product-item" category="casas">
+                        <a title="Casa Cadiz, La Querencia, Veracruz" href="img/presentaciones/casa13.pdf" target="blank"><img src="img/predios/casa13.jpg" alt=""/></a>
+                        <a href="#">Casa Cadiz, La Querencia, Veracruz</a>
+                    </div>
+
+                    <div class="product-item" category="casas">
+                        <a title="Propiedad ideal para escuela, Fortín, Ver." href="img/presentaciones/casa14.pdf" target="blank"><img src="img/predios/casa14.jpg" alt=""/></a>
+                        <a href="#">Propiedad ideal para escuela, Fortín, Ver.</a>
+                    </div>
+
+                    <div class="product-item" category="casas">
+                        <a title="Casa seminueva en Los Encinos, Fortín" href="img/presentaciones/casa15.pdf" target="blank"><img src="img/predios/casa15.jpg" alt=""/></a>
+                        <a href="#">Casa seminueva en Los Encinos, Fortín</a>
+                    </div>
+
+                    <div class="product-item" category="casas">
+                        <a title="Casa seminueva en Buena Vista" href="img/presentaciones/casa16.pdf" target="blank"><img src="img/predios/casa16.jpg" alt=""/></a>
+                        <a href="#">Casa seminueva en Buena Vista</a>
+                    </div>
+
+                    <div class="product-item" category="casas">
+                        <a title="Casa nueva en El Espinal, Orizaba" href="img/presentaciones/casa17.pdf" target="blank"><img src="img/predios/casa17.jpg" alt=""/></a>
+                        <a href="#">Casa nueva en El Espinal, Orizaba</a>
+                    </div>
+
+                    <div class="product-item" category="casas">
+                        <a title="Casa seminueva en Río Blanco, por auto zone" href="img/presentaciones/casa18.pdf" target="blank"><img src="img/predios/casa18.jpg" alt=""/></a>
+                        <a href="#">Casa seminueva en Río Blanco, por auto zone</a>
+                    </div>
+
+                    <div class="product-item" category="casas">
+                        <a title="Casas nuevas en residencial privadop Aqua" href="img/presentaciones/casa19.pdf" target="blank"><img src="img/predios/casa19.jpg" alt=""/></a>
+                        <a href="#">Casas nuevas en residencial privadop Aqua</a>
+                    </div>
+
+                    <div class="product-item" category="casas">
+                        <a title="Casas nuevas en rancho San Román, cerca de la universidad Anáhuac" href="img/presentaciones/casa20.pdf" target="blank"><img src="img/predios/casa20.jpg" alt=""/></a>
+                        <a href="#">Casas nuevas en rancho San Román, cerca de la universidad Anáhuaca</a>
+                    </div>
+
+                    <div class="product-item" category="casas">
+                        <a title="Casa seminueva en Nuevo Córdoba" href="img/presentaciones/casa21.pdf" target="blank"><img src="img/predios/casa21.jpg" alt=""/></a>
+                        <a href="#">Casa seminueva en Nuevo Córdoba</a>
+                    </div>
+                    
+                    <!-- DEPARTAMENTOS -->
+                    <div class="product-item" category="departamentos">
+                        <a title="Departamento en Valle Alegre" href="img/presentaciones/departamento1.pdf" target="blank"><img src="img/predios/departamento1.jpg" alt=""/></a>
+                        <a href="#">Departamento en Valle Alegre</a>
+                    </div>
+
+                    <!-- TERRENOS -->
+                    <div class="product-item" category="terrenos">
+                        <a title="Terreno Rancho Miranda, Córdoba" href="img/presentaciones/terreno1.pdf" target="blank"><img src="img/predios/terreno1.jpg" alt=""/></a>
+                        <a href="#">Terreno Rancho Miranda, Córdoba</a>
+                    </div>
+
+                    <div class="product-item" category="terrenos">
+                        <a title="4 hectáreas entre Dos Ríos y La Sidra" href="img/presentaciones/terreno2.pdf" target="blank"><img src="img/predios/terreno2.jpg" alt=""/></a>
+                        <a href="#">4 hectáreas entre Dos Ríos y La Sidra</a>
+                    </div>
+
+                     <!-- LOCALES -->
+                     <div class="product-item" category="locales">
+                        <a title="Local de 9x5, norte 12 #23" href="img/presentaciones/local1.pdf" target="blank"><img src="img/predios/local1.jpg" alt=""/></a>
+                        <a href="#">Local de 9x5, norte 12 #23</a>
+                    </div>
+
+                </section>
+            </div>
+        </div> 
+    </section>
+
+
+    <!-- footer -->
+    <footer>
+        <a href="#inicio" class="arriba">
+            <i class="fa-solid fa-angles-up"></i>
+        </a>
+        <div class="redes">
+            <a href="https://www.facebook.com/profile.php?id=100086518237887" target="blank"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="https://www.instagram.com/inmobiliariabapri/" target="blank"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://www.youtube.com/channel/UCU8CkKXFBw3t42TXSUoC0vg" target="blank"><i class="fa-brands fa-youtube"></i></a>
+            <a href="https://www.tiktok.com/@inmobiliariabapri?lang=es" target="blank"><i class="fa-brands fa-tiktok"></i></a>
+            <a href="https://wa.me/2721033830" target="blank"><i class="fa-brands fa-whatsapp"></i></a>
+        </div>
+    </footer>
+
+    <script src="jquery-3.2.1.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
